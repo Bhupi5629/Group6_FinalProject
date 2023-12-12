@@ -602,3 +602,9 @@ input[type='submit'] {
 input[type='submit']:hover {
   background-color: var(--primary-color-hover);
 }
+
+.contact-us-map {
+  border: 0;
+  width: 100%;
+  height: 500;
+}
