@@ -252,3 +252,31 @@ nav ul li a:hover {
     width: 100%;
   }
 }
+
+/* stats section */
+.stats-section {
+  background-color: var(--primary-color);
+  padding: 80px 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.stats-section .fa {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.stats-section p {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .stats-section {
+    display: block;
+    padding: 50px 10%;
+  }
+
+  .stats-box {
+    margin: 100px 0px;
+  }
+}
