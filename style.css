@@ -400,3 +400,69 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
 }
+
+/*--footer--*/
+
+.social-links .fa {
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  border: 1px solid var(--primary-color);
+  margin: 40px 5px 0;
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.social-links .fa:hover {
+  background: var(--primary-color);
+  color: #fff;
+  transform: translateY(-7px);
+}
+.social-links p {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #2e2c2c;
+  padding: 25px 10%;
+  padding-bottom: 20px;
+}
+
+footer .footer-seperator {
+  border-bottom: 0.5px solid grey;
+  margin-top: 25px;
+  margin-bottom: -5px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+.footer-links li,
+.footer-links p {
+  font-size: small;
+  margin-top: 2px;
+}
+
+.footer-links .fa {
+  margin-right: 4px;
+}
+.footer-links img {
+  width: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-links {
+    display: block;
+  }
+
+  .footer-links ul {
+    margin: 20px 0px;
+  }
+}
