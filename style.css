@@ -1,0 +1,12 @@
+:root {
+  --primary-color: orange;
+  --primary-color-hover: rgb(16, 116, 106);
+  --paper-color-dark: #efefef;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
