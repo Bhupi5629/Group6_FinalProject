@@ -381,3 +381,22 @@ nav ul li a:hover {
     max-width: 100%;
   }
 }
+
+/* timing section */
+
+.timing-section table,
+.timing-section th,
+.timing-section td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.timing-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.table-div {
+  display: flex;
+  justify-content: center;
+}
